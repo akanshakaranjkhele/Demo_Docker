@@ -1,18 +1,16 @@
+
 {
-  "name": "node-app_docker_demo",
-  "description": "Nodeapp for CICD test",
-  "author":"Akansha K",
-  "version": "0.0.1",
-  "private": true,
   "dependencies": {
     "express": "*"
   },
-  "devDependencies": {
-    "mocha": "9.1.1",
-    "supertest": "6.1.6"
-  },
   "scripts": {
-    "start": "node app.js",
-    "test": "./node_modules/.bin/mocha ./test/test.js"
-  }
+    "start": "node app.js"
+  },
+  "name": "basic-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Akansha K",
+  "license": "MIT",
+  "description": "NodeJS Project with Expres FrameWork and Running in Docker Container"
 }
